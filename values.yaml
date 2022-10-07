@@ -45,8 +45,8 @@ containerSecurityContext:
 # Settings to configure elasticsearch host requirements
 elasticsearch:
   # DEPRECATED: Use initSysctl.enabled instead
-  configureNode: true
-  bootstrapChecks: true
+  configureNode: false
+  bootstrapChecks: false
 
 service:
   type: NodePort
