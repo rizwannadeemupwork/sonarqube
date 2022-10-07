@@ -27,7 +27,7 @@ edition: "community"
 
 image:
   repository: sonarqube
-  tag: 9.6.1-{{ .Values.edition }}
+  tag: 8.9-community
   pullPolicy: IfNotPresent
   # If using a private repository, the imagePullSecrets to use
   # pullSecrets:
